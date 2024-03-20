@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.app')
 
-  <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Document</title>
+@section('main-content')
+  <div class="container py-3">
+    <h1>home page</h1>
 
-    @vite('resources/js/app.js')
-  </head>
-
-  <body>
-    <h1>Laravel with Bootstrap + Vite</h1>
-  </body>
-
-</html>
+  </div>
+@endsection
